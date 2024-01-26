@@ -10,12 +10,12 @@ namespace Tmpl8
 
     Surface tiles("assets/nc2tiles.png");
 
-    char map[5][30] = {
-         "kc kc kc kc kc kc kc kc kc kc",
-         "kc fb fb fb kc kc kc kc kc kc",
-         "kc fb fb fb fb fb kc kc kc kc",
-         "kc lc lc fb fb fb kc kc kc kc",
-         "kc kc kc lc lc lc kc kc kc kc"
+    char map[5][40] = {
+         "kc- kc- kc- kc- kc- kc- kc- kc- kc- kc-",
+         "kc- fbX fbX fbX kc- kc- kc- kc- kc- kc-",
+         "kc- fbX fbX fbX fbX fb- kc- kc- kc- kc-",
+         "kc- lcX lcX fbX fbX fb- kc- kc- kc- kc-",
+         "kc- kc- kc- lcX lcX lcX kc- kc- kc- kc-"
     };
 
     Sprite tank(new Surface("assets/ctankbase.tga"), 16);
